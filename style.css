@@ -1,0 +1,144 @@
+/* Cố định phông chữ cho cả trang và căn chỉnh vùng #main nằm giữa màn hình */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+#main {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Định nghĩa vùng #head */
+#head {
+    height: 120px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    border-bottom: 3px solid #1abc9c;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#head h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+/* Định nghĩa vùng #head-link */
+#head-link {
+    background-color: #34495e;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#head-link ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#head-link ul li {
+    float: left;
+    line-height: 40px;
+}
+
+#head-link ul li a {
+    display: block;
+    padding: 0 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#head-link ul li a:hover {
+    background-color: #1abc9c;
+}
+
+/* Định nghĩa vùng #left */
+#left {
+    width: 200px;
+    min-height: 400px;
+    float: left;
+    background-color: #ecf0f1;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+#left h3 {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-top: 0;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 5px;
+}
+
+#left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#left ul li {
+    margin-bottom: 8px;
+}
+
+#left ul li a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+#left ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Định nghĩa vùng #right */
+#right {
+    width: 220px;
+    min-height: 400px;
+    float: right;
+    background-color: #ecf0f1;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+#right h3 {
+    font-size: 16px;
+    color: #2c3e50;
+    margin-top: 0;
+    border-bottom: 1px solid #bdc3c7;
+    padding-bottom: 5px;
+}
+
+/* Định nghĩa vùng #content */
+#content {
+    overflow: hidden; /* Giúp content nằm gọn ở giữa vùng trống giữa left và right */
+    min-height: 400px;
+    background-color: #ffffff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#content h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+/* Định nghĩa vùng #footer */
+#footer {
+    clear: both;
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    border-top: 3px solid #1abc9c;
+}
